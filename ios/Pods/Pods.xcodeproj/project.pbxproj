@@ -52,7 +52,7 @@
 		D6620830F2ADE0D574AB7AF2425E9A00 /* TSKPinFailureReport.m in Sources */ = {isa = PBXBuildFile; fileRef = DA361B623CB4921250BE998D83C189E7 /* TSKPinFailureReport.m */; };
 		E0B4816898E70548A2FA11484E204EE2 /* TSKPinningValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD21417537193B8474367B4F61C2733 /* TSKPinningValidator.m */; };
 		E1FA8C3A97B23883A7AACB99D10586CE /* registry_tables.h in Headers */ = {isa = PBXBuildFile; fileRef = 6864DD9CB1DE8FFF59400883B853241D /* registry_tables.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E72D6D997B9C07BC1B8FA365CF1C0AE8 /* Pods-CertPinner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A72B9E8000696EA7F5BE18F363622B2 /* Pods-CertPinner-dummy.m */; };
+		E72D6D997B9C07BC1B8FA365CF1C0AE8 /* Pods-CertPinner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0ABDC84D489593322346B6ECA0F15CA /* Pods-CertPinner-dummy.m */; };
 		EB6D9814EF328F393EA36ECF3AF461A4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 938F58AE8CD37924B2DE7052EBB6295B /* Security.framework */; };
 		EF6C18A98339EFAF249FD423892799DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29232C0A90275E386A312F9C83843838 /* Foundation.framework */; };
 		F25F13945D574BBB7294DDDC4B6AAA7D /* TSKSPKIHashCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 0159BDB3398B53D7D09CE31D7F9EAF17 /* TSKSPKIHashCache.m */; };
@@ -74,8 +74,10 @@
 /* Begin PBXFileReference section */
 		0159BDB3398B53D7D09CE31D7F9EAF17 /* TSKSPKIHashCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSKSPKIHashCache.m; path = TrustKit/Pinning/TSKSPKIHashCache.m; sourceTree = "<group>"; };
 		09F4756ABD1F86BB344A090012EFB55D /* string_util.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = string_util.h; path = TrustKit/Dependencies/domain_registry/private/string_util.h; sourceTree = "<group>"; };
+		159A42295A5C7B8ADC8C734FA7D3F2C4 /* Pods-CertPinner-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CertPinner-frameworks.sh"; sourceTree = "<group>"; };
 		19E004D361356F2BE79D8C893B8CBFA0 /* parse_configuration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = parse_configuration.h; path = TrustKit/parse_configuration.h; sourceTree = "<group>"; };
 		1D197745F33C4AEE491B14D241C4B57D /* TrustKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TrustKit.m; path = TrustKit/TrustKit.m; sourceTree = "<group>"; };
+		1EBCCA956DB6EC2210FA04B004E8F7C5 /* Pods-CertPinner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CertPinner.release.xcconfig"; sourceTree = "<group>"; };
 		21ADA6F25258EF727E8AA01DEA2D1EC6 /* TSKPinningValidator_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSKPinningValidator_Private.h; path = TrustKit/TSKPinningValidator_Private.h; sourceTree = "<group>"; };
 		225E849456D95B18A922D22CD296BB7C /* TSKSPKIHashCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSKSPKIHashCache.h; path = TrustKit/Pinning/TSKSPKIHashCache.h; sourceTree = "<group>"; };
 		283197E8470E3A2BD9050E83836FAACA /* TSKBackgroundReporter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSKBackgroundReporter.m; path = TrustKit/Reporting/TSKBackgroundReporter.m; sourceTree = "<group>"; };
@@ -85,16 +87,14 @@
 		41EFB4B733E4EC5762047C76290E076F /* init_registry_tables.c */ = {isa = PBXFileReference; includeInIndex = 1; name = init_registry_tables.c; path = TrustKit/Dependencies/domain_registry/private/init_registry_tables.c; sourceTree = "<group>"; };
 		43A2CFDEC7BB25C0DFE31D38F47D852A /* configuration_utils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = configuration_utils.m; path = TrustKit/configuration_utils.m; sourceTree = "<group>"; };
 		4717838DD9545285D6AECC8F115CDD78 /* trie_search.c */ = {isa = PBXFileReference; includeInIndex = 1; name = trie_search.c; path = TrustKit/Dependencies/domain_registry/private/trie_search.c; sourceTree = "<group>"; };
-		4A5CE7D074EAA47D81EA97AF68E21641 /* Pods-CertPinner-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CertPinner-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4D930CA50486AFF030D8CC8C89C5C2F3 /* TrustKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TrustKit-prefix.pch"; sourceTree = "<group>"; };
 		5089AFB341B9D68084FED229DBE1BB5A /* libTrustKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTrustKit.a; path = libTrustKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A72B9E8000696EA7F5BE18F363622B2 /* Pods-CertPinner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CertPinner-dummy.m"; sourceTree = "<group>"; };
 		6864DD9CB1DE8FFF59400883B853241D /* registry_tables.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = registry_tables.h; path = TrustKit/Dependencies/domain_registry/registry_tables_genfiles/registry_tables.h; sourceTree = "<group>"; };
 		693FB6D0A16CF506F726238F61D1E308 /* TSKPinningValidatorResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSKPinningValidatorResult.h; path = TrustKit/TSKPinningValidatorResult.h; sourceTree = "<group>"; };
 		69CE4A2FB2D22F43DACD13C13BBD3870 /* registry_search.c */ = {isa = PBXFileReference; includeInIndex = 1; name = registry_search.c; path = TrustKit/Dependencies/domain_registry/private/registry_search.c; sourceTree = "<group>"; };
 		6C8E4ACCA87F9489F3D35F604DC6A523 /* TSKPinningValidatorCallback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSKPinningValidatorCallback.h; path = TrustKit/TSKPinningValidatorCallback.h; sourceTree = "<group>"; };
-		70F8E3F45EAE735727E30A02C27CFC12 /* Pods-CertPinner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CertPinner.release.xcconfig"; sourceTree = "<group>"; };
 		724BF4EF4BAD55819C88D9E1A88DC9F6 /* TSKBackgroundReporter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSKBackgroundReporter.h; path = TrustKit/Reporting/TSKBackgroundReporter.h; sourceTree = "<group>"; };
+		77255CC7EBE3A11C6DD10823DB4D880C /* Pods-CertPinner-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CertPinner-resources.sh"; sourceTree = "<group>"; };
 		7AE1531D279B9B875D008846F5D804EF /* TSKTrustKitConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSKTrustKitConfig.m; path = TrustKit/TSKTrustKitConfig.m; sourceTree = "<group>"; };
 		7F35E92AB755A6817559992F9A0DA07C /* TSKPinFailureReport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSKPinFailureReport.h; path = TrustKit/Reporting/TSKPinFailureReport.h; sourceTree = "<group>"; };
 		81F762B9EC95C2138A6B5CE9180CC16E /* TSKLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSKLog.h; path = TrustKit/TSKLog.h; sourceTree = "<group>"; };
@@ -105,14 +105,15 @@
 		940427C0DE1B8DB62CA4938E2814771F /* ssl_pin_verifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssl_pin_verifier.h; path = TrustKit/Pinning/ssl_pin_verifier.h; sourceTree = "<group>"; };
 		957B7CE2A9D07145A55EB56AF77C6B75 /* TSKNSURLConnectionDelegateProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSKNSURLConnectionDelegateProxy.h; path = TrustKit/Swizzling/TSKNSURLConnectionDelegateProxy.h; sourceTree = "<group>"; };
 		97ABC6A08D01B9D9FEE276777FD079EB /* TSKNSURLSessionDelegateProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSKNSURLSessionDelegateProxy.h; path = TrustKit/Swizzling/TSKNSURLSessionDelegateProxy.h; sourceTree = "<group>"; };
+		98315DC6997111A7BC6D39EE0DF65646 /* Pods-CertPinner-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CertPinner-acknowledgements.plist"; sourceTree = "<group>"; };
 		A3FA360A0E18109AAE63419B80A8C3D5 /* TrustKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TrustKit.xcconfig; sourceTree = "<group>"; };
 		A436D44D225B92C15FA1FB566DFDDB59 /* TSKNSURLConnectionDelegateProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSKNSURLConnectionDelegateProxy.m; path = TrustKit/Swizzling/TSKNSURLConnectionDelegateProxy.m; sourceTree = "<group>"; };
 		A888B27DAB077275AB1C10B1A462834D /* reporting_utils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = reporting_utils.m; path = TrustKit/Reporting/reporting_utils.m; sourceTree = "<group>"; };
+		A97AD73728FB318D1D003CDEA8ABF813 /* Pods-CertPinner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CertPinner.debug.xcconfig"; sourceTree = "<group>"; };
 		B6DE1BF81ACCBC82755D52857C62F53A /* tsk_assert.c */ = {isa = PBXFileReference; includeInIndex = 1; name = tsk_assert.c; path = TrustKit/Dependencies/domain_registry/private/tsk_assert.c; sourceTree = "<group>"; };
-		B7F7A3341CBD5EF418BFD19982DEBBF4 /* Pods-CertPinner-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CertPinner-acknowledgements.plist"; sourceTree = "<group>"; };
-		B905B221380F77370EBA4733C9F6DCD9 /* Pods-CertPinner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CertPinner.debug.xcconfig"; sourceTree = "<group>"; };
 		BC08B4C39553117EBE6C1FD3D29DE714 /* TSKReportsRateLimiter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSKReportsRateLimiter.m; path = TrustKit/Reporting/TSKReportsRateLimiter.m; sourceTree = "<group>"; };
 		BC16C0F857D54A0F6748263E8A61EAEF /* TSKReportsRateLimiter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSKReportsRateLimiter.h; path = TrustKit/Reporting/TSKReportsRateLimiter.h; sourceTree = "<group>"; };
+		C0ABDC84D489593322346B6ECA0F15CA /* Pods-CertPinner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CertPinner-dummy.m"; sourceTree = "<group>"; };
 		C1AD9FDE52846D84F7626A79CD159631 /* tsk_assert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tsk_assert.h; path = TrustKit/Dependencies/domain_registry/private/tsk_assert.h; sourceTree = "<group>"; };
 		C1C3D706C37674902CC28858CAE2DD05 /* RSSwizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSSwizzle.h; path = TrustKit/Dependencies/RSSwizzle/RSSwizzle.h; sourceTree = "<group>"; };
 		C476DE5F4DB6AFB6E39ADAF187B66599 /* TrustKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TrustKit-dummy.m"; sourceTree = "<group>"; };
@@ -122,9 +123,9 @@
 		D0B4548A55088602702E347086A3DD3D /* TSKTrustDecision.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSKTrustDecision.h; path = TrustKit/TSKTrustDecision.h; sourceTree = "<group>"; };
 		D20A9E0FEB56173F436770AA35390869 /* TrustKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TrustKit.h; path = TrustKit/TrustKit.h; sourceTree = "<group>"; };
 		D476861687260E74EE92991F33B5B1D2 /* trie_node.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = trie_node.h; path = TrustKit/Dependencies/domain_registry/private/trie_node.h; sourceTree = "<group>"; };
+		D794170A8595D54ED421DB03384824AC /* Pods-CertPinner-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CertPinner-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DA361B623CB4921250BE998D83C189E7 /* TSKPinFailureReport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSKPinFailureReport.m; path = TrustKit/Reporting/TSKPinFailureReport.m; sourceTree = "<group>"; };
 		DBB6FC348E0EB570FD8EB9054BFB5A2A /* RSSwizzle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSSwizzle.m; path = TrustKit/Dependencies/RSSwizzle/RSSwizzle.m; sourceTree = "<group>"; };
-		DD59D8025959A455A3DA66014C787F22 /* Pods-CertPinner-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CertPinner-resources.sh"; sourceTree = "<group>"; };
 		E2EF9BF5399FDAC8160754B0423A4E79 /* vendor_identifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vendor_identifier.h; path = TrustKit/Reporting/vendor_identifier.h; sourceTree = "<group>"; };
 		E43F855F27EF82FA4E73C8F68825E99A /* vendor_identifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = vendor_identifier.m; path = TrustKit/Reporting/vendor_identifier.m; sourceTree = "<group>"; };
 		E4794BE7341DA7D041A733C169015FF0 /* registry_types.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = registry_types.h; path = TrustKit/Dependencies/domain_registry/private/registry_types.h; sourceTree = "<group>"; };
@@ -156,14 +157,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0BE5815CABF2427AEE5852C8BB847764 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				632BAC42AC2EF7A8443CAABCAB30C750 /* Pods-CertPinner */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 		3B74F6E29DDA63438528FE58BD6FEF55 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -189,20 +182,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		632BAC42AC2EF7A8443CAABCAB30C750 /* Pods-CertPinner */ = {
-			isa = PBXGroup;
-			children = (
-				4A5CE7D074EAA47D81EA97AF68E21641 /* Pods-CertPinner-acknowledgements.markdown */,
-				B7F7A3341CBD5EF418BFD19982DEBBF4 /* Pods-CertPinner-acknowledgements.plist */,
-				5A72B9E8000696EA7F5BE18F363622B2 /* Pods-CertPinner-dummy.m */,
-				DD59D8025959A455A3DA66014C787F22 /* Pods-CertPinner-resources.sh */,
-				B905B221380F77370EBA4733C9F6DCD9 /* Pods-CertPinner.debug.xcconfig */,
-				70F8E3F45EAE735727E30A02C27CFC12 /* Pods-CertPinner.release.xcconfig */,
-			);
-			name = "Pods-CertPinner";
-			path = "Target Support Files/Pods-CertPinner";
-			sourceTree = "<group>";
-		};
 		694FECDD8657C1F1E6FB17CC1A52972B /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -212,6 +191,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		78192D792EC6CB3EEFC3E1DDA846DE69 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4A78F6A11B81479A71603D1150ED88B /* Pods-CertPinner */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -219,7 +206,7 @@
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				57D74F88A8661DC2F301AD069828C648 /* Pods */,
 				694FECDD8657C1F1E6FB17CC1A52972B /* Products */,
-				0BE5815CABF2427AEE5852C8BB847764 /* Targets Support Files */,
+				78192D792EC6CB3EEFC3E1DDA846DE69 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -232,6 +219,21 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/TrustKit";
+			sourceTree = "<group>";
+		};
+		D4A78F6A11B81479A71603D1150ED88B /* Pods-CertPinner */ = {
+			isa = PBXGroup;
+			children = (
+				D794170A8595D54ED421DB03384824AC /* Pods-CertPinner-acknowledgements.markdown */,
+				98315DC6997111A7BC6D39EE0DF65646 /* Pods-CertPinner-acknowledgements.plist */,
+				C0ABDC84D489593322346B6ECA0F15CA /* Pods-CertPinner-dummy.m */,
+				159A42295A5C7B8ADC8C734FA7D3F2C4 /* Pods-CertPinner-frameworks.sh */,
+				77255CC7EBE3A11C6DD10823DB4D880C /* Pods-CertPinner-resources.sh */,
+				A97AD73728FB318D1D003CDEA8ABF813 /* Pods-CertPinner.debug.xcconfig */,
+				1EBCCA956DB6EC2210FA04B004E8F7C5 /* Pods-CertPinner.release.xcconfig */,
+			);
+			name = "Pods-CertPinner";
+			path = "Target Support Files/Pods-CertPinner";
 			sourceTree = "<group>";
 		};
 		EA3C7E7B6F0D0C694A791162DD4AB7C1 /* TrustKit */ = {
@@ -452,7 +454,7 @@
 /* Begin XCBuildConfiguration section */
 		2851AD1A96707C222E8BA372EACFBD93 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B905B221380F77370EBA4733C9F6DCD9 /* Pods-CertPinner.debug.xcconfig */;
+			baseConfigurationReference = A97AD73728FB318D1D003CDEA8ABF813 /* Pods-CertPinner.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -565,7 +567,7 @@
 		};
 		9C16DC385BD423F6D0543612AA37CB88 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 70F8E3F45EAE735727E30A02C27CFC12 /* Pods-CertPinner.release.xcconfig */;
+			baseConfigurationReference = 1EBCCA956DB6EC2210FA04B004E8F7C5 /* Pods-CertPinner.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
